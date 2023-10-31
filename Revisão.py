@@ -57,3 +57,7 @@ print(str(2) + 'B')  # Nesse caso o int 2 foi convertido em str para que pudesse
 meu_nome = 'Akashi Seijure'
 print(meu_nome)
 # sempre que eu usar a variavel 'meu_nome' na verdade eu estou me referindo ao valor nela atribuido anteriormente.  
+# obs: sempre utilize o sinha de = (igual) para atribuir o valor, pode se utilizar o underline e sempre seja bem específico quando escolher os nomes para 
+# facilitar o reconhecimento durante o projeto.
+
+
