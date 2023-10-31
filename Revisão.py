@@ -18,7 +18,7 @@ print(2.5, 5.8)
 
 
 # Bool = São Variaveis do tipo booleanos -> Usado para questinar se um valor é igual a outro respondendo False (falso) para NÃO ou True para SIM (verdadeiro) São comumente
-# usados para mudar o fluxo do programa combinado com "if" e "else"
+# usados para mudar o fluxo do programa.
 print(10 == 10)
 print(50 == 20)
 
@@ -60,4 +60,41 @@ print(meu_nome)
 # obs: sempre utilize o sinha de = (igual) para atribuir o valor, pode se utilizar o underline e sempre seja bem específico quando escolher os nomes para 
 # facilitar o reconhecimento durante o projeto.
 
+#                                                    Operadores Matemáticos
 
+#  OBS: A ordem seguida para realizar as operações é igual a da matemática
+ #1. (n + n) -> entre parenteses
+ #2. ** -> Expoente
+ #3. * / // % -> multiplicação, divisões e Módulo -> por ter mesmo nível esses serão executados da esquerda para direita.
+ #4. + - -> adição e subtração
+
+adicao = 2 + 2
+print("Adição", adicao)
+
+subtracao = 2 - 1
+print("Subtração", subtracao)
+
+multiplicacao = 2 * 5
+print("Multiplicação", multiplicacao)
+
+divisao = 10 / 3 #float
+print("Dvisão", divisao)
+
+divisao_inteira = 10 // 3 #arredondado
+print("Divisão inteira", divisao_inteira)
+
+exponenciacao = 2 ** 10
+print("Exponeciação", exponenciacao)
+
+modulo = 25 % 5 #Resto de divisão
+print("Módulo", modulo)
+
+
+
+ #                                   Concatenação (juntar) e Repetição com operadores matemáticos
+
+concatenacao = "A" + "B" + "C"  # Juntar os termos
+print(concatenacao)
+
+nome_dez_vezes = "Akashi \n" * 10
+print(nome_dez_vezes)
